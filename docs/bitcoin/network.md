@@ -1,6 +1,8 @@
-# Bitcoin Network The network of computers running the bitcoin program.
+## Bitcoin Network
 
-## What is the Bitcoin Network?
+The network of computers running the bitcoin program.
+
+### What is the Bitcoin Network?
 
 The Bitcoin Network is made up of everyone running the bitcoin software (better known as “bitcoin clients”).
 
@@ -8,7 +10,7 @@ The Bitcoin Network is made up of everyone running the bitcoin software (better 
 
 Bitcoin is a network people runnning the same computer program.
 
-## What does the network do?
+### What does the network do?
 
 People (well, bitcoin clients) on the network **talk to each other**.
 
@@ -35,7 +37,7 @@ The Bitcoin Network is described as a “[peer-to-peer](https://en.wikipedia.org
 1.  Everyone is connected to each other, so it’s a network.
 2.  Everyone on the network is equal, so we are peers.
 
-## Who makes up the network?
+### Who makes up the network?
 
 As mentioned, **anyone with an active Internet connection and running a bitcoin client**.
 
@@ -49,7 +51,7 @@ Node - a slightly more concise way of saying “an individual running a bitcoin 
 
 For more information on nodes, check out [nodes](nodes).
 
-## How can I join the network?
+### How can I join the network?
 
 That’s the spirit.
 
