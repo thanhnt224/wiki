@@ -10,9 +10,20 @@
     <div id="docute"></div>
     <script src="https://unpkg.com/docute@4/dist/docute.js"></script>
     <script>
-      new Docute({
-        target: '#docute'
-      })
+new Docute({
+  target: '#docute',
+  title: 'Docute',
+  nav: [
+    {
+      title: 'Home',
+      link: '/'
+    },
+    {
+      title: 'GitHub',
+      link: 'https://github.com/leptosia/docute'
+    }
+  ]
+})
     </script>
   </body>
 </html>
