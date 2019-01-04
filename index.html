@@ -12,7 +12,7 @@
     <script>
 new Docute({
   target: '#docute',
-  title: 'Docute',
+  title: 'Blockchain Wiki',
   nav: [
     {
       title: 'Home',
@@ -21,6 +21,22 @@ new Docute({
     {
       title: 'GitHub',
       link: 'https://github.com/TradaTech/wiki'
+    }
+  ],
+  sidebar: [
+    // A sidebar item, with multiple sub-links
+    {
+      title: 'Guide', // Optional
+      links: [
+        {
+          title: 'Getting Started',
+          link: '/guide/getting-started'
+        },
+        {
+          title: 'Installation',
+          link: '/guide/installation'
+        },
+      ]
     }
   ]
 })
