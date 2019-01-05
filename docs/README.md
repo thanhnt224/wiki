@@ -3,4 +3,4 @@
 - BITCOIN: giới thiệu về bitcoin cho người mới bắt đầu, dịch từ http://learnmeabitcoin.com/guide/
 - ETHERERUM SMART CONTRACT: đang xây đựng
 
-[BẮT ĐẦU](#/bitcoin/network)
+<p class="next-link"><a href="bitcoin/network">Network</p>
