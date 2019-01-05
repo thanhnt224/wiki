@@ -1,4 +1,4 @@
-# Bitcoin Network
+## Bitcoin Network
 
 The network of computers running the bitcoin program.
 

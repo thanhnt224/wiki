@@ -1,4 +1,4 @@
-# Nodes
+## Nodes
 
 `Những máy tính chạy chương trình bitcoin`
 
