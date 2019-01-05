@@ -6,7 +6,7 @@ The network of computers running the bitcoin program.
 
 The Bitcoin Network is made up of everyone running the bitcoin software (better known as “bitcoin clients”).
 
-![Bitcoin is a network people runnning the same computer program.](http://learnmeabitcoin.com/guide/images/network/png/01-software_network.png)
+![Bitcoin is a network people runnning the same computer program.](/wiki/bitcoin/images/network/01-software_network.png)
 
 Bitcoin is a network people runnning the same computer program.
 
@@ -14,7 +14,7 @@ Bitcoin is a network people runnning the same computer program.
 
 People (well, bitcoin clients) on the network **talk to each other**.
 
-![Very sociable.](http://learnmeabitcoin.com/guide/images/network/png/02-software_network_talking.png)
+![Very sociable.](/wiki/bitcoin/images/network/02-software_network_talking.png)
 
 Very sociable.
 
@@ -22,13 +22,13 @@ And by “talk to each other” I mean _pass on information_ about what’s goin
 
 For example, a message could be **information about a new _transaction_**.
 
-![Sharing information about new transactions.](http://learnmeabitcoin.com/guide/images/network/png/03-software_network_talking_transaction.png)
+![Sharing information about new transactions.](/wiki/bitcoin/images/network/03-software_network_talking_transaction.png)
 
 Sharing information about new transactions.
 
 This sharing of information (e.g. transactions) is what allows the everyone on the network to keep up-to-date, which is pretty important if you want to run a digital currency on the Internet.
 
-![Eventually everyone knows about the new transaction. Good network.](http://learnmeabitcoin.com/guide/images/network/png/04-software_network_talking_transaction_consensus.png)
+![Eventually everyone knows about the new transaction. Good network.](/wiki/bitcoin/images/network/04-software_network_talking_transaction_consensus.png)
 
 Eventually everyone knows about the new transaction. Good network.
 
@@ -45,7 +45,7 @@ Seriously, _anyone can join the bitcoin network_. All you need is an internet co
 
 And once you’re up and running you’ll be referred to as a node on the bitcoin network.
 
-![Node - a slightly more concise way of saying an individual running a bitcoin client and relaying information around the network.](http://learnmeabitcoin.com/guide/images/network/png/05-nodes_network.png)
+![Node - a slightly more concise way of saying an individual running a bitcoin client and relaying information around the network.](/wiki/bitcoin/images/network/05-nodes_network.png)
 
 Node - a slightly more concise way of saying “an individual running a bitcoin client and relaying information around the network”.
 
