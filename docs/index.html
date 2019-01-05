@@ -4,13 +4,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Trada Tech Blockchain Wiki</title>
-    <link rel="stylesheet" href="https://unpkg.com/docute@4/dist/docute.css">
+    <!--link rel="stylesheet" href="https://unpkg.com/docute@4/dist/docute.css"-->
+    <link rel="stylesheet" href="//unpkg.com/docsify/themes/vue.css">
   </head>
   <body>
     <div id="docute"></div>
-    <script src="https://unpkg.com/docute@4/dist/docute.js"></script>
+    <!--script src="https://unpkg.com/docute@4/dist/docute.js"></script-->
+    <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
     <script>
-new Docute({
+//new Docute({
+  window.$docsify = {
   target: '#docute',
   title: 'Blockchain Wiki',
   editLinkBase: 'https://github.com/TradaTech/wiki/tree/master/docs',
@@ -93,7 +96,8 @@ new Docute({
       ]
     }
   ]
-})
+//})
+}
     </script>
   </body>
 </html>
