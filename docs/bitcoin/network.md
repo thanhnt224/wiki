@@ -1,20 +1,20 @@
-## Bitcoin Network
+# Bitcoin Network
 
 The network of computers running the bitcoin program.
 
-### What is the Bitcoin Network?
+## What is the Bitcoin Network?
 
 The Bitcoin Network is made up of everyone running the bitcoin software (better known as “bitcoin clients”).
 
-![Bitcoin is a network people runnning the same computer program.](/wiki/bitcoin/images/network/01-software_network.png)
+![Bitcoin is a network people runnning the same computer program.](images/network/01-software_network.png)
 
 Bitcoin is a network people runnning the same computer program.
 
-### What does the network do?
+## What does the network do?
 
 People (well, bitcoin clients) on the network **talk to each other**.
 
-![Very sociable.](/wiki/bitcoin/images/network/02-software_network_talking.png)
+![Very sociable.](images/network/02-software_network_talking.png)
 
 Very sociable.
 
@@ -22,13 +22,13 @@ And by “talk to each other” I mean _pass on information_ about what’s goin
 
 For example, a message could be **information about a new _transaction_**.
 
-![Sharing information about new transactions.](/wiki/bitcoin/images/network/03-software_network_talking_transaction.png)
+![Sharing information about new transactions.](images/network/03-software_network_talking_transaction.png)
 
 Sharing information about new transactions.
 
 This sharing of information (e.g. transactions) is what allows the everyone on the network to keep up-to-date, which is pretty important if you want to run a digital currency on the Internet.
 
-![Eventually everyone knows about the new transaction. Good network.](/wiki/bitcoin/images/network/04-software_network_talking_transaction_consensus.png)
+![Eventually everyone knows about the new transaction. Good network.](images/network/04-software_network_talking_transaction_consensus.png)
 
 Eventually everyone knows about the new transaction. Good network.
 
@@ -37,7 +37,7 @@ The Bitcoin Network is described as a “[peer-to-peer](https://en.wikipedia.org
 1.  Everyone is connected to each other, so it’s a network.
 2.  Everyone on the network is equal, so we are peers.
 
-### Who makes up the network?
+## Who makes up the network?
 
 As mentioned, **anyone with an active Internet connection and running a bitcoin client**.
 
@@ -45,13 +45,13 @@ Seriously, _anyone can join the bitcoin network_. All you need is an internet co
 
 And once you’re up and running you’ll be referred to as a node on the bitcoin network.
 
-![Node - a slightly more concise way of saying an individual running a bitcoin client and relaying information around the network.](/wiki/bitcoin/images/network/05-nodes_network.png)
+![Node - a slightly more concise way of saying an individual running a bitcoin client and relaying information around the network.](images/network/05-nodes_network.png)
 
 Node - a slightly more concise way of saying “an individual running a bitcoin client and relaying information around the network”.
 
 For more information on nodes, check out [nodes](nodes).
 
-### How can I join the network?
+## How can I join the network?
 
 That’s the spirit.
 
@@ -63,4 +63,4 @@ Congratulations, you are now a node on the bitcoin network.
 
 You may need to [edit some settings in your router to allow other nodes to connect to you](https://bitcoin.org/en/full-node#gui-peer-info), but this is just a minor configuration. By downloading and running a bitcoin client you are 95% of the way to becoming an active node on the bitcoin network.
 
-By [Greg Walker](/about), 27 February 2015
+By Greg Walker, 27 February 2015

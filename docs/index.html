@@ -1,97 +1,101 @@
-<!DOCTYPE>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Trada Tech Blockchain Wiki</title>
-    <link rel="stylesheet" href="https://unpkg.com/docute@4/dist/docute.css">
-  </head>
-  <body>
-    <div id="docute"></div>
-    <script src="https://unpkg.com/docute@4/dist/docute.js"></script>
-    <script>
-new Docute({
-  title: 'Blockchain Wiki',
-  editLinkBase: 'https://github.com/TradaTech/wiki/tree/master/docs',
-  editLinkText: 'Sửa nội dung',
-  nav: [
-    {
-      title: 'Home',
-      link: '/'
-    },
-    {
-      title: 'GitHub',
-      link: 'https://github.com/TradaTech/wiki'
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <style>
+    body {font-size: 17px}
+    .sidebar ul li a {font-size: 17px}
+/****** Sidebar Toggle ******/
+.sidebar-toggle {
+  cursor: pointer;
+}
+
+body .sidebar-toggle {
+  background: none;
+  top: 1.5rem;
+  left: calc(300px + 1.5rem);
+  cursor: pointer;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0;
+  transition: left 0.25s ease-out;
+}
+
+body .sidebar-toggle span {
+  background-color: var(--theme-color);
+  height: 0.2rem;
+  width: 1.5rem;
+  position: absolute;
+  left: 0;
+  margin: 0;
+  transform-origin: 0;
+  border-radius: 1px;
+}
+
+body.close .sidebar-toggle {
+  transition: left 0.25s ease-out;
+  width: 1.5rem;
+  height: 1.5rem;
+  left: 1.5rem;
+}
+
+body.close .sidebar-toggle span {
+  transform-origin: center;
+}
+
+body .sidebar-toggle span:nth-child(1) {
+  top: 0;
+}
+body .sidebar-toggle span:nth-child(2) {
+  top: 0.5rem;
+}
+body .sidebar-toggle span:nth-child(3) {
+  top: 1rem;
+}
+
+.sidebar-toggle:hover {
+  opacity: 0.8;
+}
+.sidebar-toggle .sidebar-toggle-button:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  body .sidebar-toggle {
+    left: 1rem;
+  }
+
+  body.close .sidebar-toggle {
+    left: calc(300px + 1.5rem);
+  }
+}
+  </style>
+</head>
+<body>
+  <div id="app">Trada Tech</div>
+  <script>
+    window.$docsify = {
+      name: 'Blockchain Wiki',
+      repo: 'tradatech/wiki',
+      themeColor: '#15B5DD',
+      loadSidebar: true,
+      subMaxLevel: 1,
+      loadNavbar: true,
+      //mergeNavbar: true,
+      routerMode: 'hash',
+      pagination: {
+        previousText: 'Bài trước',
+        nextText: 'Bài tiếp',
+      },
     }
-  ],
-  sidebar: [
-    // A sidebar item, with multiple sub-links
-    {
-      title: 'Bitcoin', // Optional
-      links: [
-        {
-          title: 'The Bitcoin Network',
-          link: '/bitcoin/network'
-        },
-        {
-          title: 'Nodes',
-          link: '/bitcoin/nodes'
-        },
-        {
-          title: 'Mining',
-          link: '/wiki/bitcoin/mining'
-        },
-        {
-          title: 'Blockchain',
-          link: '/wiki/bitcoin/blockchain'
-        },
-        
-        /*
-        {
-          title: 'Blocks',
-          link: '/wiki/bitcoin/blocks'
-        },
-        {
-          title: 'Difficulty',
-          link: '/wiki/bitcoin/difficulty'
-        },
-        {
-          title: 'Transactions',
-          link: '/wiki/bitcoin/transactions'
-        },
-        {
-          title: 'Outputs',
-          link: '/wiki/bitcoin/outputs'
-        },
-        {
-          title: 'Output Locks',
-          link: '/wiki/bitcoin/output_locks'
-        },
-        {
-          title: 'Keys & Addresses',
-          link: '/wiki/bitcoin/keys_addresses'
-        },
-        {
-          title: 'Private Keys',
-          link: '/wiki/bitcoin/private_keys'
-        },
-        {
-          title: 'Public Keys',
-          link: '/wiki/bitcoin/public_keys'
-        },
-        {
-          title: 'Digital Signatures',
-          link: '/wiki/bitcoin/digital_signatures'
-        },
-        {
-          title: 'Signing & Verifying',
-          link: '/wiki/bitcoin/digital_signatures_signing_verifying'
-        },
-        */
-      ]
-    }
-  ]
-})
-    </script>
-  </body>
+  </script>
+  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
+</body>
 </html>
