@@ -17,7 +17,7 @@ Blockchain Wiki đề cao tính khách quan và dễ hiểu.
 1. Fork [Blockchain Wiki Repo](https://github.com/TradaTech/wiki)
 2. Thực hiện sửa
 3. Tạo Pull Request vào `master` brance của Blockchain Wiki repo
-4. Đợi [Netlify](https://www.netlify.com) build xong, xem thử và sửa nếu có lỗi
+4. Đợi [Netlify](https://www.netlify.com) deploy preview thành công, xem thử và sửa nếu có lỗi
 
 Chúng tôi sẽ kiểm tra, merge, và deploy sớm nhất có thể.
 
@@ -27,27 +27,27 @@ Chúng tôi sẽ kiểm tra, merge, và deploy sớm nhất có thể.
 
 ## Cách format bài viết
 
-Thông thường, các bài viết sử dụng [Github Flavor Markdown](https://github.github.com/gfm/). Ngoài ra, Blockchain Wiki hỗ trợ thêm vài syntax đặc thù.
-
-Thông thường, bạn dùng kí hiệu `>` nếu muốn tạo blockquote.
+Các bài được viết bằng [markdown](https://www.markdownguide.org/cheat-sheet/). Ngoài ra, Blockchain Wiki hỗ trợ thêm `#>` (subheader), `?> (info/tip box)`, `!> (warn box)`.
 
 Ví dụ:
 
 ```markdown
 > Đây là 1 blockquote.
+
+?> Đây là 1 ô ghi chú.
+
+!> Đây là 1 ghi chú vô cùng quan trọng.
 ```
 
 Kết quả:
 
 > Đây là 1 blockquote.
 
-Tuy nhiên, nếu muốn có 1 ô khác màu đề ghi chú, bạn có thể dùng kí hiệu `?>`.
-
 ?> Đây là 1 ô ghi chú.
 
-Nếu ghi chú quan trọng, bạn có thể dùng kí hiệu `!>`.
-
 !> Đây là 1 ghi chú vô cùng quan trọng.
+
+#> Đây là 1 sub-header, đứng ngay sau title chính để nhấn mạnh.
 
 ## Liên hệ
 
