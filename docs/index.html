@@ -11,7 +11,7 @@
   <style>
     body {font-size: 17px}
     .sidebar ul li {font-size:16px; color:#999}
-    .sidebar ul li p {font-size:18px; color:#505d6b}
+    .sidebar ul li p {font-size:18px; color:#505d6b; text-transform: uppercase}
     .sidebar ul li a {font-size: 16px}
 /****** Sidebar Toggle ******/
 .sidebar-toggle {
@@ -104,11 +104,17 @@ a[href^="https://"]:after {
   font-size: 135%;
   color: #888;
 }
+.updated-time {
+  color:#aaa;
+}
+body .docsify-pagination-container {
+  margin-top: 2.3rem;
+}
 
   </style>
 </head>
 <body>
-  <div id="app">Trada Tech</div>
+  <div id="app">Blockchain Wiki</div>
   <script>
     window.$docsify = {
       name: '<div>Blockchain Wiki</div><img src="https://trada.tech/assets/img/logo.svg">',
@@ -133,15 +139,18 @@ a[href^="https://"]:after {
         placeholder: 'Tìm kiếm',
         noData: 'Không tìm thấy.'
       },
+      pagination: {
+        previousText: 'BÀI TRƯỚC',
+        nextText: 'BÀI TIẾP',
+      },
       plugins: [
         function (hook, vm) {
           var url = 'https://github.com/tradatech/wiki/blob/master/docs/' + vm.route.file
           var editHtml = '<a class="edit-this-page" target="_blank" href="' + url + '">Sửa trên GitHub<\/a>\n'
           var footer = [
             '\n\n---\n',
-            'Cập nhật <span style="color:#aaa">{docsify-updated}</span> ',
-            editHtml,
-            '\n---\n'
+            'Cập nhật <span class="updated-time">{docsify-updated}</span> ',
+            editHtml
           ]
           hook.beforeEach(function(md) {
 
@@ -159,9 +168,10 @@ a[href^="https://"]:after {
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-  <!--script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script-->
   <script src="//unpkg.com/docsify/lib/plugins/ga.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="//unpkg.com/docsify-m-pagination"></script>
+
 </body>
 </html>

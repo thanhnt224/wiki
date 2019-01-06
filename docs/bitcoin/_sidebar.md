@@ -1,6 +1,6 @@
 <!-- docs/_sidebar.md -->
 
-* [BITCOIN CHO NGƯỜI MỚI](bitcoin/)
+* [Bitcoin cho người mới bắt đầu](bitcoin/)
 
     * [The Bitcoin Network](bitcoin/network.md)
         * [Nodes](bitcoin/nodes.md)
@@ -17,4 +17,4 @@
             * Digital Signatures
             * Signing & Verifying
 
-* [ĐÓNG GÓP BÀI VIẾT](contribute.md)
+* [Đóng góp bài viết](contribute.md)

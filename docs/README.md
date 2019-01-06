@@ -21,7 +21,7 @@ Mục tiêu của chúng tôi là cung cấp kiến thức để gỡ bỏ bớt
 Chưa có nội dung gì.
 
 ## Bitcoin
-- [Giới thiệu công nghệ bitcoin cho người mới bắt đầu](bitcoin/)
+- <a data-next="true" data-text="Bitcoin cho người mới bắt đầu" href="bitcoin/">Giải thích công nghệ bitcoin cho người mới bắt đầu</a>
 
 ## Ethereum
 
