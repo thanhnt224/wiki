@@ -17,7 +17,7 @@ Blockchain Wiki đề cao tính khách quan và dễ hiểu.
 1. Fork [Blockchain Wiki Repo](https://github.com/TradaTech/wiki)
 2. Thực hiện sửa
 3. Tạo Pull Request vào `master` brance của Blockchain Wiki repo
-4. Đợi [Netlify](https://www.netlify.com) deploy preview thành công, xem thử và sửa nếu có lỗi
+4. Đợi [Netlify](https://www.netlify.com) deploy preview thành công, xem thử và sửa nếu có vấn đề
 
 Chúng tôi sẽ kiểm tra, merge, và deploy sớm nhất có thể.
 
@@ -47,7 +47,7 @@ Kết quả:
 
 !> Đây là 1 ghi chú vô cùng quan trọng.
 
-#> Đây là 1 sub-header, đứng ngay sau title chính để nhấn mạnh.
+#> Đây là 1 sub-header, hãy để ngay sau title chính để nhấn mạnh.
 
 ## Liên hệ
 
