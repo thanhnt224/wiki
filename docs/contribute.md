@@ -41,13 +41,13 @@ Ví dụ:
 
 Kết quả:
 
-#> Đây là 1 sub-header, đứng ngay sau title chính để nhấn mạnh.
-
 > Đây là 1 blockquote.
 
 ?> Đây là 1 ô ghi chú.
 
 !> Đây là 1 ghi chú vô cùng quan trọng.
+
+#> Đây là 1 sub-header, đứng ngay sau title chính để nhấn mạnh.
 
 ## Liên hệ
 
