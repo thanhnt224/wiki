@@ -27,26 +27,26 @@ Chúng tôi sẽ kiểm tra, merge, và deploy sớm nhất có thể.
 
 ## Cách format bài viết
 
-Thông thường, các bài viết sử dụng [Github Flavor Markdown](https://github.github.com/gfm/). Ngoài ra, Blockchain Wiki hỗ trợ thêm vài syntax đặc thù.
+Các bài viết sử dụng [Github Flavor Markdown](https://github.github.com/gfm/). Ngoài ra, Blockchain Wiki hỗ trợ thêm vài syntax đặc thù.
 
-Thông thường, bạn dùng kí hiệu `>` nếu muốn tạo blockquote.
+Thông thường, bạn dùng kí hiệu `>` nếu muốn tạo blockquote. Tuy nhiên, Blockchain Wiki hỗ trợ thêm `#>`, `?>`, `!>`.
 
 Ví dụ:
 
 ```markdown
+# Đây là title bài viết
+#> Đây là 1 sub-header, dùng ngay sau title để nhấn mạnh.
 > Đây là 1 blockquote.
+?> Đây là 1 ô ghi chú.
+!> Đây là 1 ghi chú vô cùng quan trọng.
 ```
 
 Kết quả:
 
+# Đây là title bài viết
+#> Đây là 1 sub-header, dùng ngay sau title để nhấn mạnh.
 > Đây là 1 blockquote.
-
-Tuy nhiên, nếu muốn có 1 ô khác màu đề ghi chú, bạn có thể dùng kí hiệu `?>`.
-
 ?> Đây là 1 ô ghi chú.
-
-Nếu ghi chú quan trọng, bạn có thể dùng kí hiệu `!>`.
-
 !> Đây là 1 ghi chú vô cùng quan trọng.
 
 ## Liên hệ
