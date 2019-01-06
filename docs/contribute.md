@@ -27,13 +27,11 @@ Chúng tôi sẽ kiểm tra, merge, và deploy sớm nhất có thể.
 
 ## Cách format bài viết
 
-Các bài được viết bằng [markdown](https://www.markdownguide.org/cheat-sheet/). Ngoài ra, Blockchain Wiki hỗ trợ thêm `#>`, `?>`, `!>`.
+Các bài được viết bằng [markdown](https://www.markdownguide.org/cheat-sheet/). Ngoài ra, Blockchain Wiki hỗ trợ thêm `#>` (subheader), `?> (info/tip box)`, `!> (warn box)`.
 
 Ví dụ:
 
 ```markdown
- #> Đây là 1 sub-header, dùng ngay sau title để nhấn mạnh.
-
 > Đây là 1 blockquote.
 
 ?> Đây là 1 ô ghi chú.
@@ -43,7 +41,7 @@ Ví dụ:
 
 Kết quả:
 
-#> Đây là 1 sub-header, dùng ngay sau title để nhấn mạnh.
+#> Đây là 1 sub-header, đứng ngay sau title chính để nhấn mạnh.
 
 > Đây là 1 blockquote.
 
