@@ -6,4 +6,4 @@
 
 ?> This is a tip
 
-! This is a warn
+!> This is a warn
