@@ -85,16 +85,18 @@ body .sidebar-toggle span:nth-child(3) {
 .app-name-link img {
   padding-bottom: 2rem;
 }
+/*
 a.edit-this-page {
   float: right;
   color: #444;
 }
 @media screen and (max-width: 460px) {
+  */
   a.edit-this-page {
     float: none;
     display: block;
   }
-}
+/*}*/
 a[href^="//"]:after, 
 a[href^="http://"]:after, 
 a[href^="https://"]:after {
@@ -108,7 +110,7 @@ a[href^="https://"]:after {
   color:#aaa;
 }
 body .docsify-pagination-container {
-  margin-top: 2.3rem;
+  margin-top: 2rem;
 }
 
   </style>
@@ -145,15 +147,15 @@ body .docsify-pagination-container {
       },
       plugins: [
         function (hook, vm) {
-          var url = 'https://github.com/tradatech/wiki/blob/master/docs/' + vm.route.file
-          var editHtml = '<a class="edit-this-page" target="_blank" href="' + url + '">Sửa trên GitHub<\/a>\n'
-          var footer = [
-            '\n\n---\n',
-            'Cập nhật <span class="updated-time">{docsify-updated}</span> ',
-            editHtml
-          ]
           hook.beforeEach(function(md) {
-
+            var url = 'https://github.com/tradatech/wiki/blob/master/docs/' + vm.route.file
+            var editHtml = '<a class="edit-this-page" target="_blank" href="' + url + '">Sửa trên GitHub<\/a>\n'
+            var footer = [
+              //'\n\n---\n',
+              "\n\n<br>",
+              'Cập nhật <span class="updated-time">{docsify-updated}</span> ',
+              editHtml
+            ]
             var m = md.match(/^#>.+$/gm);
             if (m && m[0]) {
               md = md.replace(m[0], "<p class='lead'>" + 
