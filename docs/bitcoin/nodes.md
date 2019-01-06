@@ -1,6 +1,6 @@
 # Nodes
 
-`Những máy tính chạy chương trình bitcoin`
+#> Những máy tính chạy chương trình bitcoin.
 
 ![05-nodes_network.png](/images/05-nodes_network.png)
 

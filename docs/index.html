@@ -6,10 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="icon" href="https://trada.tech/favicon.ico">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
   <style>
     body {font-size: 17px}
-    .sidebar ul li a {font-size: 17px}
+    .sidebar ul li {font-size:16px; color:#999}
+    .sidebar ul li p {font-size:18px; color:#505d6b}
+    .sidebar ul li a {font-size: 16px}
 /****** Sidebar Toggle ******/
 .sidebar-toggle {
   cursor: pointer;
@@ -74,28 +77,84 @@ body .sidebar-toggle span:nth-child(3) {
     left: calc(300px + 1.5rem);
   }
 }
+
+/* LOGO */
+.app-name-link div {
+  padding-bottom: 1rem;
+}
+.app-name-link img {
+  padding-bottom: 2rem;
+}
+a.edit-this-page {
+  float: right;
+  color: #444;
+}
+a[href^="//"]:after, 
+a[href^="http://"]:after, 
+a[href^="https://"]:after {
+  content: url(external.svg);
+}
+.lead {
+  font-size: 135%;
+  color: #888;
+}
+
   </style>
 </head>
 <body>
   <div id="app">Trada Tech</div>
   <script>
     window.$docsify = {
-      name: 'Blockchain Wiki',
-      repo: 'tradatech/wiki',
+      name: '<div>Blockchain Wiki</div><img src="https://trada.tech/assets/img/logo.svg">',
+      //repo: 'tradatech/wiki',
       themeColor: '#15B5DD',
       loadSidebar: true,
-      subMaxLevel: 1,
+      subMaxLevel: 0,
       loadNavbar: true,
       //mergeNavbar: true,
+      coverpage: false,
+      onlyCover: false,
+      auto2top: true,
       routerMode: 'hash',
-      pagination: {
-        previousText: 'Bài trước',
-        nextText: 'Bài tiếp',
+      formatUpdated: '{DD}/{MM}/{YYYY} {HH}:{mm}',
+      ga: 'UA-8597504-5',
+      alias: {
+        '/.*/_navbar.md': '/_navbar.md',
       },
+      search: {
+        paths: 'auto',
+        placeholder: 'Tìm kiếm',
+        noData: 'Không tìm thấy.'
+      },
+      plugins: [
+        function (hook, vm) {
+          var url = 'https://github.com/tradatech/wiki/blob/master/docs/' + vm.route.file
+          var editHtml = '<a class="edit-this-page" target="_blank" href="' + url + '">Sửa trên GitHub<\/a>\n'
+          var footer = [
+            '\n\n---\n',
+            'Cập nhật <span style="color:#aaa">{docsify-updated}</span> ',
+            editHtml,
+            '\n---\n'
+          ]
+          hook.beforeEach(function(md) {
+
+            var m = md.match(/^#>.+$/gm);
+            if (m && m[0]) {
+              md = md.replace(m[0], "<p class='lead'>" + 
+                m[0].replace("#>", "").trim() + 
+                "</p>")
+            }
+
+            return md + footer.join('');
+          })
+        },
+      ]
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <!--script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script-->
+  <script src="//unpkg.com/docsify/lib/plugins/ga.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
 </body>
 </html>

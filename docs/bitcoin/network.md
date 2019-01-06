@@ -1,6 +1,6 @@
 # Bitcoin Network
 
-The network of computers running the bitcoin program.
+#> The network of computers running the bitcoin program.
 
 ## What is the Bitcoin Network?
 
