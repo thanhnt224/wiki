@@ -2,7 +2,7 @@
 
 # Giới thiệu
 
-Gạt đi những ầm ĩ của bong bóng và các vụ lừa đảo, ở cốt lõi của mình, Blockchain là một công nghệ rất đáng giá. Những ồn ào lắng xuống sẽ cho phép các nhóm R&D tập trung vào việc giải quyết các vấn đề then chốt giúp cho công nghệ này trưởng thành.
+Gạt đi những ầm ĩ của bong bóng và các vụ lừa đảo, ở cốt lõi của mình, blockchain là một công nghệ rất đáng giá. Những ồn ào lắng xuống sẽ cho phép các nhóm R&D tập trung vào việc giải quyết các vấn đề then chốt giúp cho công nghệ này trưởng thành.
 
 Mục tiêu của chúng tôi là cung cấp kiến thức để gỡ bỏ bớt rào cản ban đầu, giúp mọi người dễ dàng tiếp cận với công nghệ này hơn.
 
