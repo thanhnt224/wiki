@@ -35,18 +35,26 @@ Ví dụ:
 
 ```markdown
 # Đây là title bài viết
+
 #> Đây là 1 sub-header, dùng ngay sau title để nhấn mạnh.
+
 > Đây là 1 blockquote.
+
 ?> Đây là 1 ô ghi chú.
+
 !> Đây là 1 ghi chú vô cùng quan trọng.
 ```
 
 Kết quả:
 
 # Đây là title bài viết
+
 #> Đây là 1 sub-header, dùng ngay sau title để nhấn mạnh.
+
 > Đây là 1 blockquote.
+
 ?> Đây là 1 ô ghi chú.
+
 !> Đây là 1 ghi chú vô cùng quan trọng.
 
 ## Liên hệ
