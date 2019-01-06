@@ -49,7 +49,7 @@ And once you’re up and running you’ll be referred to as a node on the bitcoi
 
 Node - a slightly more concise way of saying “an individual running a bitcoin client and relaying information around the network”.
 
-For more information on nodes, check out [nodes](nodes).
+For more information on nodes, check out [nodes](/bitcoin/nodes).
 
 ## How can I join the network?
 
